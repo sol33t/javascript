@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
     $("#result").html(function(){
-        // add some purty colors
+        // add some pretty colors
         function numString(num) {
             return "<span style='color: green;'>" + num + "</span><br>\n";
         }
@@ -28,8 +28,6 @@ $(document).ready(function() {
                 finalOutput += numString(i);
             }
         }
-
-        console.log(finalOutput);
         return finalOutput;
     });
 
